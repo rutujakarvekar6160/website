@@ -1,0 +1,32 @@
+.footer {
+    background-color:brown;
+    color: white;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    color: #ffc107; /* Yellow color for heading */
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.icons a {
+    color: #3f51b5; /* Blue color for icons */
+    font-size: 1.5rem;
+    margin-right: 10px;
+}

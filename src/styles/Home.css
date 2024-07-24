@@ -1,0 +1,119 @@
+/* src/styles/Home.css */
+
+/* Banner Section */
+.Banner {
+    background-image: url('../images/img4.gif');
+    height: 450%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: right bottom, left top;
+    background-color: rgb(104, 204, 240);
+    color:white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.Banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Banner h5 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.Banner button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+/* Coupons Section */
+.Coupons {
+    background-color:#eb844c;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.Coupons h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.Coupons img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Explore Section */
+.Explore h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Card {
+    margin: 20px 0;
+}
+
+.Card img {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Card .card-body {
+    padding: 20px;
+}
+
+.Card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.Card .card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.Card button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #222e3a;
+    color: grey;
+    margin-top: 50px;
+    height: 400px;
+    padding: 20px;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul a li {
+    padding: 7px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .icons a {
+    color: chartreuse;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}

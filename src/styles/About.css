@@ -1,0 +1,24 @@
+.about-us {
+    background-color:#F7c5cc;
+    padding: 60px 0;
+    font-family: 'Arial, sans-serif';
+    color: #333;
+}
+
+.about-us h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.about-us img {
+    border-radius: 8px;
+    max-width: 100%;
+}

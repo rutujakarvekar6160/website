@@ -1,0 +1,43 @@
+/* src/components/Header.css */
+
+.navbar {
+    background-color:brown; /* Dark background color */
+    padding: 10px 20px; /* Padding for spacing */
+  }
+  
+  .navbar-brand img {
+    height: 40px; /* Adjust the logo size */
+    margin-top: -10px; /* Adjust the top margin */
+  }
+  
+  .navbar-nav .nav-link {
+    color: white; /* White text color for links */
+    margin-right: 15px; /* Space between links */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ddd; /* Lighten text on hover */
+  }
+  
+  .navbar-toggler {
+    border-color: white; /* White border for toggler */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      background-color: #333; /* Dark background for collapse menu */
+    }
+  
+    .navbar-nav .nav-link {
+      color: white; /* White text color for links in collapse menu */
+      margin: 0; /* No margin for links in collapse menu */
+      padding: 10px; /* Padding for links in collapse menu */
+    }
+  }
+  

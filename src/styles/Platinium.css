@@ -1,0 +1,69 @@
+/* Container styling */
+.platinium-page {
+    background-color:peru ; /* Light background color */
+    padding: 60px 20px; /* Padding for spacing */
+    font-family: 'Arial, sans-serif'; /* Font family for text */
+    color: #333; /* Text color */
+}
+
+/* Heading styling */
+.platinium-page h2 {
+    color: #333; /* Heading text color */
+    margin-bottom: 40px; /* Margin below heading */
+    font-size: 2.5rem; /* Heading font size */
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Card styling */
+.card {
+    border: none; /* Remove card border */
+    border-radius: 10px; /* Rounded corners for card */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Card shadow */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0; /* Rounded corners for card image */
+    height: 250px; /* Fixed height for card image */
+    object-fit: cover; /* Cover image inside the card */
+}
+
+.card-body {
+    text-align: center; /* Center align card text */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Card title font size */
+    font-weight: bold; /* Bold font weight for title */
+    margin-bottom: 10px; /* Margin below title */
+}
+
+.card-text {
+    font-size: 1rem; /* Card text font size */
+    margin-bottom: 20px; /* Margin below text */
+}
+
+/* Button styling */
+.btn-success {
+    background-color: #ffc107; /* Custom button color */
+    border: none; /* Remove button border */
+}
+
+.btn-success:hover {
+    background-color: #e0a800; /* Button hover color */
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .platinium-page h2 {
+        font-size: 2rem; /* Smaller font size for small screens */
+    }
+
+    .platinium-page {
+        padding: 40px 10px; /* Less padding for small screens */
+    }
+}

@@ -1,0 +1,53 @@
+/* src/styles/SignUp.css */
+
+.signup-container {
+  background-image: url('../images/sign.jpg'); /* Adjust the path to your background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Center content vertically */
+  padding: 20px; /* Add padding for better appearance */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px; /* Limit form width for better readability */
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for form */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group .error {
+  color: #dc3545;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
